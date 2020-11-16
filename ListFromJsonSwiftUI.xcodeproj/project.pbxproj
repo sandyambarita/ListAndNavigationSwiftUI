@@ -15,6 +15,9 @@
 		A658CE1C25622AAF0076D947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A658CE1A25622AAF0076D947 /* LaunchScreen.storyboard */; };
 		A658CE2725622AAF0076D947 /* ListFromJsonSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658CE2625622AAF0076D947 /* ListFromJsonSwiftUITests.swift */; };
 		A658CE3225622AAF0076D947 /* ListFromJsonSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658CE3125622AAF0076D947 /* ListFromJsonSwiftUIUITests.swift */; };
+		A658CE4325622ADB0076D947 /* PokemonApiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658CE4225622ADB0076D947 /* PokemonApiList.swift */; };
+		A658CE4825622BAD0076D947 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658CE4725622BAD0076D947 /* NetworkingManager.swift */; };
+		A658CE4D256251430076D947 /* DetailPokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658CE4C256251430076D947 /* DetailPokemonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A658CE2D25622AAF0076D947 /* ListFromJsonSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListFromJsonSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A658CE3125622AAF0076D947 /* ListFromJsonSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFromJsonSwiftUIUITests.swift; sourceTree = "<group>"; };
 		A658CE3325622AAF0076D947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A658CE4225622ADB0076D947 /* PokemonApiList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonApiList.swift; sourceTree = "<group>"; };
+		A658CE4725622BAD0076D947 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		A658CE4C256251430076D947 /* DetailPokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				A658CE1A25622AAF0076D947 /* LaunchScreen.storyboard */,
 				A658CE1D25622AAF0076D947 /* Info.plist */,
 				A658CE1725622AAF0076D947 /* Preview Content */,
+				A658CE4225622ADB0076D947 /* PokemonApiList.swift */,
+				A658CE4725622BAD0076D947 /* NetworkingManager.swift */,
+				A658CE4C256251430076D947 /* DetailPokemonView.swift */,
 			);
 			path = ListFromJsonSwiftUI;
 			sourceTree = "<group>";
@@ -268,6 +277,9 @@
 			files = (
 				A658CE1025622AAC0076D947 /* AppDelegate.swift in Sources */,
 				A658CE1225622AAC0076D947 /* SceneDelegate.swift in Sources */,
+				A658CE4325622ADB0076D947 /* PokemonApiList.swift in Sources */,
+				A658CE4D256251430076D947 /* DetailPokemonView.swift in Sources */,
+				A658CE4825622BAD0076D947 /* NetworkingManager.swift in Sources */,
 				A658CE1425622AAC0076D947 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

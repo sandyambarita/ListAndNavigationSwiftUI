@@ -8,13 +8,36 @@
 import SwiftUI
 
 struct DetailPokemonView: View {
+    var pokemon: PokemonApiListEntry?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Form{
+                Section {
+                    HStack {
+                        Text("Pokemon Name")
+                        Spacer()
+                        Text(pokemon?.name ?? "")
+                            .foregroundColor(.gray)
+                            .font(.callout)
+                    }
+                }
+                Section {
+                    Button(action: {
+                        UIApplication.shared.open(URL(string: pokemon!.url)!)
+                    }, label: {
+                        Text(pokemon?.url ?? "")
+                    })
+                }
+            }
+        }
     }
 }
 
-struct DetailPokemonView_Previews: PreviewProvider {
+
+struct DetailPokemonView_Preview: PreviewProvider {
     static var previews: some View {
         DetailPokemonView()
     }
 }
+
